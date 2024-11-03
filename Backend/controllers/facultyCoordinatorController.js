@@ -1,4 +1,4 @@
-const FacultyCoordinator = require("../models/facultyCoordinator");
+const FacultyCoordinator = require("../models/FacultyCoordinator");
 
 exports.register = async (req, res) => {
   const { name, email, phone } = req.body;

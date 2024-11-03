@@ -4,7 +4,7 @@ import CountdownTimer from "../components/Timer";
 import { TypeAnimation } from "react-type-animation";
 
 export default function SpotlightPreview() {
-  const targetDate = "2024-10-31T18:00:00";
+  const targetDate = "2024-12-20T18:00:00";
 
   return (
     <>
@@ -18,10 +18,13 @@ export default function SpotlightPreview() {
             Advitiya
           </h1>
           <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-            Spotlight effect is a great way to draw attention to a specific part
-            of the page. Here, we are drawing the attention towards the text
-            section of the page. I don&apos;t know why but I&apos;m running out
-            of copy.
+            "Advitiya" is an exciting event conducted by the Department of
+            Computer Science and Data Science (CSE DS) at Rajeev Gandhi Memorial
+            College of Engineering and Technology (RGMCET). Join us as we
+            celebrate innovation, creativity, and knowledge sharing. This event
+            brings together students, faculty, and industry experts for a day
+            filled with insightful talks, hands-on workshops, and interactive
+            sessions aimed at fostering learning and collaboration.
           </p>
           <div className="mt-8 flex justify-center">
             <CountdownTimer targetDate={targetDate} />

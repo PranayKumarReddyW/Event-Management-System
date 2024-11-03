@@ -1,6 +1,6 @@
 const Event = require("../models/Event");
 const StudentCoordinator = require("../models/StudentCoordinator");
-const FacultyCoordinator = require("../models/facultyCoordinator");
+const FacultyCoordinator = require("../models/FacultyCoordinator");
 
 exports.create = async (req, res) => {
   const {
